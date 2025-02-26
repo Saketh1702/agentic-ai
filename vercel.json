@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       { "src": "/api/*.py", "use": "@vercel/python" },
-      { "src": "package.json", "use": "@svelte/adapter-vercel" }
+      { "src": "package.json", "use": "@sveltejs/adapter-vercel" }
     ],
     "routes": [
       { "src": "/api/(.*)", "dest": "/api/$1" },
