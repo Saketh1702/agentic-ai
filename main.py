@@ -21,8 +21,6 @@ class Agent:
         self.gemini = genai.GenerativeModel(self.model)
         
 
-    # def _manage_memory(self):
-    #     pass
 
     def ask_gemini(self, prompt: str) -> str:
         try:
